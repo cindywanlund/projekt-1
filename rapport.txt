@@ -1,0 +1,20 @@
+index.html 
+Meta-taggarna används för att öka SEO. Dessa är satta till att tillåta de flesta internationella tecken som åäö och arabiska mm. De anpassar även delvis till olika skärmar och även till olika webbläsare. 
+I rad 7 har jag länkat till min stylesheet "style.css" där jag har gjort min CSS-styling. 
+I rad 8 sätter jag titeln som visas i fliken till phonecatalog eftersom att det är det som sidan handlar om. 
+I bodyn väljer jag först header taggen som får omsluta det kontent som ska ligga överst. 
+I bodyn väljer jag först en "nav"  tagg eftersom att det kommer innehålla en lista med navigeringslänkar. Inuti det så sätter jag först "ul" tagg eftersom att det är en lista utan ordning. Där i blir det två "li" taggar som är listan. I dessa li taggar lägger jag länkar genom a taggen så att besökaren ska kunna navigera mellan "home" sidan och "catalog" sidan där nummrena finns. Därefter stängs dessa taggar. 
+Därefter lägger jag en section tagg eftersom att jag behöver lite content till sidan. Just section taggen använder jag för att innehållet referar till vad hemsidan går ut på. Och för att jag sedan vill ha en heading tagg "h1" och sedan en paragraf till de. 
+------
+catalog.html
+Denna består av samma head text av samma anledning som ovan. Här har jag ändrat title till phonenumbers eftersom att denna sida visar en tabell med nummer. 
+I bodyn gäller samma som ovan eftersom att man ska kunna navigera tillbaka till home sidan. 
+Därefter när header taggen stängts (och de andra nästade taggarna) så ska en tabell in. Då börjar jag med table taggen för att definiera en html tabell. 
+Därefter används "thead" taggen som precis som header taggen ska definiera det som ska ligga överst. 
+Sedan används "tr" taggen som ska definiera table row och eftersom de ligger innanför thead så blir det den översta raden där man definierar vad som ska ligga i kolumnerna under. 
+För att lägga in rubriker till kollumnerna så läggs de inom taggen "th". 
+När dessa stängs så lägger jag taggen "tbody" efter där innehållet i kolumnena ska läggas in i. 
+Innanför tbody läggs taggen tr för att definiera en rad och innanför det läggs taggen "td" (flera stycken) där man lägger in det innehåll man vill ha per ruta. 
+Sedan återupprepas dessa tr taggar (med innehåll av td) efter hur många rader som behövs. 
+Jag la även in en knapp innanför en td som man gör genom taggen "button". 
+Därefter stängs alla taggar. 
